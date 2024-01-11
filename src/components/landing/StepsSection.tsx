@@ -11,17 +11,21 @@ export default function StepsSection() {
                 </div>
                 <div className="flex flex-col mt-8">
                     <div className="flex flex-wrap">
-                        <div className="w-full md:w-2/3 lg:w-1/2 py-5 px-2.5">
-                            <span className="text-sm text-primary font-medium">
-                                Step 1
-                            </span>
-                            <h3 className="text-xl font-medium">
-                                Sign Up
-                            </h3>
-                            <p className="text-md font-light">
-                                Begin by registering on the platform, providing your email address and creating a secure
-                                password. Alternatively, you can sign up using your Google, Discord, or GitHub account.
-                            </p>
+                        <div className="w-full md:w-2/3 lg:w-1/2 py-5 px-2.5 flex justify-center">
+                            <div>
+                                <span className="text-sm text-primary font-medium">
+                                    Step 1
+                                </span>
+                                <h3 className="text-xl font-medium">
+                                    Sign Up
+                                </h3>
+                                <p className="text-md font-light max-w-[450px]">
+                                    Begin by registering on the platform, providing your email address and creating a
+                                    secure password. Alternatively, you can sign up using your Google, Discord, or
+                                    GitHub account. Once registered, you will be redirected to the dashboard, where you
+                                    can create a new project.
+                                </p>
+                            </div>
                         </div>
                         <div className="w-full md:w-1/3 lg:w-1/2 py-5 px-2.5">
                             <Image
@@ -41,33 +45,37 @@ export default function StepsSection() {
                                 className="w-full max-h-[250px] shrink !object-contain !relative"
                             />
                         </div>
-                        <div className="w-full md:w-2/3 lg:w-1/2 py-5 px-2.5">
-                            <span className="text-sm text-primary font-medium">
-                                Step 2
-                            </span>
-                            <h3 className="text-xl font-medium">
-                                Create A Project
-                            </h3>
-                            <p className="text-md font-light">
-                                Once logged in, create a new project, carefully selecting the subscription plan that
-                                aligns with your requirements. Proceed to enhance collaboration by implementing team
-                                members into the project, ensuring seamless coordination.
-                            </p>
+                        <div className="w-full md:w-2/3 lg:w-1/2 py-5 px-2.5 flex justify-center">
+                            <div>
+                                <span className="text-sm text-primary font-medium">
+                                    Step 2
+                                </span>
+                                <h3 className="text-xl font-medium">
+                                    Create A Project
+                                </h3>
+                                <p className="text-md font-light max-w-[450px]">
+                                    Once logged in, create a new project, carefully selecting the subscription plan that
+                                    aligns with your requirements. Proceed to enhance collaboration by implementing team
+                                    members into the project, ensuring seamless coordination.
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div className="flex flex-wrap">
-                        <div className="w-full md:w-2/3 lg:w-1/2 py-5 px-2.5">
-                            <span className="text-sm text-primary font-medium">
-                                Step 3
-                            </span>
-                            <h3 className="text-xl font-medium">
-                                Upload your Configurations
-                            </h3>
-                            <p className="text-md font-light">
-                                Upload your configuration files to the platform, on the desired instance node. You can
-                                also create a new configuration file directly on the platform, using the integrated
-                                editor.
-                            </p>
+                        <div className="w-full md:w-2/3 lg:w-1/2 py-5 px-2.5 flex justify-center">
+                            <div>
+                                <span className="text-sm text-primary font-medium">
+                                    Step 3
+                                </span>
+                                <h3 className="text-xl font-medium">
+                                    Upload your Configurations
+                                </h3>
+                                <p className="text-md font-light max-w-[450px]">
+                                    Upload your configuration files to the platform, on the desired instance node. You
+                                    can also create a new configuration file directly on the platform, using the
+                                    integrated editor.
+                                </p>
+                            </div>
                         </div>
                         <div className="w-full md:w-1/3 lg:w-1/2 py-5 px-2.5">
                             <Image
@@ -87,18 +95,21 @@ export default function StepsSection() {
                                 className="w-full max-h-[250px] shrink !object-contain !relative"
                             />
                         </div>
-                        <div className="w-full md:w-2/3 lg:w-1/2 py-5 px-2.5">
-                            <span className="text-sm text-primary font-medium">
-                                Step 4
-                            </span>
-                            <h3 className="text-xl font-medium">
-                                Start Synchronizing your Configurations
-                            </h3>
-                            <p className="text-md font-light">
-                                Lastly, download the Config Sync plugin and install it on your server. Once installed,
-                                the plugin will automatically synchronize your configuration files with the platform,
-                                ensuring that all your server instances are up-to-date with the latest configurations.
-                            </p>
+                        <div className="w-full md:w-2/3 lg:w-1/2 py-5 px-2.5 flex justify-center">
+                            <div>
+                                <span className="text-sm text-primary font-medium">
+                                    Step 4
+                                </span>
+                                <h3 className="text-xl font-medium">
+                                    Start Synchronizing your Configurations
+                                </h3>
+                                <p className="text-md font-light max-w-[450px]">
+                                    Lastly, download the Config Sync plugin and install it on your server. Once
+                                    installed, the plugin will automatically synchronize your configuration files with
+                                    the platform, ensuring that all your server instances are up-to-date with the latest
+                                    configurations.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
