@@ -3,6 +3,8 @@ import {Outfit} from 'next/font/google'
 import '../styles/globals.css'
 import {ReactNode} from "react";
 import {classNames} from "@/utils/css";
+import NavBar from "@/components/NavBar";
+import Providers from "@/components/Providers";
 
 const outfitFont = Outfit({
     weight: ['300', '500', '600'],
@@ -24,7 +26,10 @@ export default function RootLayout({children}: { children: ReactNode }) {
                 "max-w-screen overflow-x-hidden",
             )}
         >
-        {children}
+        <Providers>
+            <NavBar/>
+            {children}
+        </Providers>
         </body>
         </html>
     );
