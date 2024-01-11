@@ -1,4 +1,4 @@
-import type {Metadata} from 'next'
+import type {Metadata, Viewport} from 'next'
 import {Outfit} from 'next/font/google'
 import '../styles/globals.css'
 import {ReactNode} from "react";
@@ -11,6 +11,10 @@ const outfitFont = Outfit({
     subsets: ['latin'],
     display: 'swap',
 });
+
+export const viewport: Viewport = {
+    themeColor: '#626BFF',
+}
 
 export const metadata: Metadata = {
     title: 'Config Sync',
