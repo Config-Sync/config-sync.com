@@ -37,7 +37,10 @@ export default function NavBar() {
                 )}
             >
                 <div
-                    className="fixed top-0 right-0 lg:hidden cursor-pointer p-2.5 bg-[rgba(0,0,0,.75)] rounded-bl-2xl"
+                    className={classNames(
+                        "fixed top-0 right-0 lg:hidden cursor-pointer p-2.5 border-gray-200 rounded-bl-2xl",
+                        "bg-white border-solid border-2 shadow"
+                    )}
                 >
                     <button
                         onClick={() => setNavBarOpen(!isNavBarOpen)}
@@ -46,9 +49,9 @@ export default function NavBar() {
                     >
                         {
                             !isNavBarOpen ? (
-                                <GiHamburgerMenu className="w-full h-full text-white"/>
+                                <GiHamburgerMenu className="w-full h-full"/>
                             ) : (
-                                <HiMiniXMark className="w-full h-full text-white"/>
+                                <HiMiniXMark className="w-full h-full"/>
                             )
                         }
                     </button>
