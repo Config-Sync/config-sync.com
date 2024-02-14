@@ -1,0 +1,61 @@
+{
+  "Landing": {
+    "Hero": {
+      "title": "<primary>Moiteloos</primary> Synchroniseer uw Minecraft-server <primary>Configuraties</primary>",
+      "sub-title": "Config Sync is een platform voor configuratiesynchronisatie voor Minecraft-servers met meerdere serverinstanties die dezelfde configuratiebestanden moeten bevatten.",
+      "cta": "Aan de slag"
+    },
+    "Trusted-By": {
+      "title": "Vertrouwd door de besten",
+      "sub-title": "Config Sync wordt vertrouwd door de beste Minecraft-servereigenaren en ontwikkelaars."
+    },
+    "How-It-Works": {
+      "title": "Hoe het werkt",
+      "Steps": {
+        "one": {
+          "step": "Stap 1",
+          "title": "Registreer",
+          "description": "Begin met registreren op het platform door uw e-mailadres op te geven en een veilig wachtwoord aan te maken. U kunt zich ook registreren met uw Google-, Discord- of GitHub-account. Na registratie wordt u doorgestuurd naar het dashboard, waar u een nieuw project kunt aanmaken."
+        },
+        "two": {
+          "step": "Stap 2",
+          "title": "Maak een project aan",
+          "description": "Maak na het inloggen een nieuw project aan en selecteer zorgvuldig het abonnement dat overeenkomt met uw eisen. Ga verder met het verbeteren van de samenwerking door teamleden aan het project toe te voegen, waardoor naadloze coördinatie mogelijk is."
+        },
+        "three": {
+          "step": "Stap 3",
+          "title": "Upload uw configuraties",
+          "description": "Upload uw configuratiebestanden naar het platform op de gewenste instantienode. U kunt ook rechtstreeks op het platform een nieuw configuratiebestand aanmaken met de geïntegreerde editor."
+        },
+        "four": {
+          "step": "Stap 4",
+          "title": "Begin met het synchroniseren van uw configuraties",
+          "description": "Download tot slot de Config Sync-plugin en installeer deze op uw server. Eenmaal geïnstalleerd, zal de plugin automatisch uw configuratiebestanden synchroniseren met het platform, waardoor al uw serverinstanties up-to-date zijn met de nieuwste configuraties."
+        }
+      }
+    }
+  },
+  "Footer": {
+    "legal": {
+      "slogan": "Begin vandaag nog met het synchroniseren van uw Minecraft-serverconfiguraties",
+      "copyright": "© {jaar} VertCode Development. Alle rechten voorbehouden."
+    },
+    "website": {
+      "title": "Website",
+      "links": {
+        "home": "Home",
+        "pricing": "Prijzen",
+        "sign-in": "Aanmelden",
+        "sign-up": "Registreren"
+      }
+    },
+    "useful-links": {
+      "title": "Handige Links",
+      "links": {
+        "contact": "Contact",
+        "terms": "Voorwaarden",
+        "privacy": "Privacy"
+      }
+    }
+  }
+}

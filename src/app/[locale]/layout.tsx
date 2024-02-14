@@ -1,9 +1,8 @@
 import type {Metadata, Viewport} from 'next'
 import {Outfit} from 'next/font/google'
-import '../styles/globals.css'
+import '../../styles/globals.css'
 import {ReactNode} from "react";
-import {classNames} from "@/utils/css";
-import NavBar from "@/components/NavBar";
+import {cn} from "@/utils/css";
 import Providers from "@/components/Providers";
 
 const outfitFont = Outfit({
@@ -102,17 +101,14 @@ export const metadata: Metadata = {
     },
 };
 
-export default function RootLayout({children}: { children: ReactNode }) {
+export default function RootLayout({children, params: {locale}}: { children: ReactNode, params: { locale: string } }) {
     return (
-        <html lang="en">
-        <body
-            className={classNames(
-                outfitFont.className,
-                "max-w-screen overflow-x-hidden",
-            )}
-        >
+        <html lang={locale}>
+        <body className={cn(
+            outfitFont.className,
+            "max-w-screen overflow-x-hidden",
+        )}>
         <Providers>
-            <NavBar/>
             {children}
         </Providers>
         </body>

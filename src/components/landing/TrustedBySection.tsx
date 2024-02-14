@@ -1,6 +1,8 @@
 import Marquee from "react-fast-marquee";
-import {classNames} from "@/utils/css";
+import {cn} from "@/utils/css";
 import Image from "next/image";
+import {Suspense} from "react";
+import {useTranslations} from "next-intl";
 
 // TODO: Replace with PayloadCMS integration
 const trustedBy = [
@@ -14,14 +16,16 @@ const trustedBy = [
 ]
 
 export default function TrustedBySection() {
+    const t = useTranslations('Landing.Trusted-By');
+
     return (
         <section id="trusted-by" className="my-8 py-8 bg-[#FCFCFC]">
             <div className="container">
                 <h2 className="text-3xl font-bold text-center">
-                    Trusted By The Best
+                    {t('title')}
                 </h2>
-                <p className="text-md font-medium text-center opacity-75">
-                    Config Sync is trusted by the best Minecraft server owners and developers.
+                <p className="text-md font-medium text-center opacity-75 mt-1">
+                    {t('sub-title')}
                 </p>
             </div>
             <div className="container mt-8">
@@ -32,7 +36,7 @@ export default function TrustedBySection() {
                         trustedBy.map((trustedBy, index) => (
                             <div
                                 key={index}
-                                className={classNames(
+                                className={cn(
                                     'flex max-w-[250px] max-h-[125px] px-4 mx-8'
                                 )}
                             >
@@ -43,12 +47,15 @@ export default function TrustedBySection() {
                                     className="w-full h-full"
                                     aria-label={trustedBy.name}
                                 >
-                                    <Image
-                                        src={`${trustedBy.logo.url}`}
-                                        alt={trustedBy.name}
-                                        className='w-full h-full object-contain !relative'
-                                        layout='fill'
-                                    />
+                                    <Suspense fallback={<div className="w-[250px] h-[125px] bg-slate-400 animate-pulse"/>}>
+                                        <Image
+                                            src={trustedBy.logo.url}
+                                            alt={trustedBy.name}
+                                            width={250}
+                                            height={125}
+                                            quality={100}
+                                        />
+                                    </Suspense>
                                 </a>
                             </div>
                         ))

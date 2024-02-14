@@ -1,19 +1,11 @@
-/**
- * Concatenate class names
- *
- * @param args the class names to concatenate
- */
-export function classNames(...args: any[]) {
-  return args.filter(Boolean).join(' ')
-}
+import {clsx, type ClassValue} from "clsx"
+import {twMerge} from "tailwind-merge"
 
 /**
- * Concatenate class names based on a condition
+ * Tailwind CSS classnames
  *
- * @param classes the class names to concatenate
+ * @param inputs Classnames
  */
-export function conditionalClassNames(classes: { [key: string]: boolean }) {
-  return Object.keys(classes)
-    .filter(key => classes[key])
-    .join(' ')
+export function cn(...inputs: ClassValue[]) {
+    return twMerge(clsx(inputs))
 }

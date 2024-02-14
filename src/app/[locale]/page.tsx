@@ -1,6 +1,7 @@
 import HeroSection from "@/components/landing/HeroSection";
 import TrustedBySection from "@/components/landing/TrustedBySection";
 import StepsSection from "@/components/landing/StepsSection";
+import Footer from "@/components/common/Footer";
 
 export default function HomePage() {
     return (
@@ -8,6 +9,7 @@ export default function HomePage() {
             <HeroSection/>
             <TrustedBySection/>
             <StepsSection/>
+            <Footer/>
         </main>
     );
 }

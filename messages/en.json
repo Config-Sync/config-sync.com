@@ -1,0 +1,61 @@
+{
+  "Landing": {
+    "Hero": {
+      "title": "<primary>Effortlessly</primary> Synchronize Your Minecraft Server <primary>Configurations</primary>",
+      "sub-title": "Config Sync is a configuration synchronization platform for Minecraft Servers that have multiple server instances that should contain the same configuration files.",
+      "cta": "Get Started"
+    },
+    "Trusted-By": {
+      "title": "Trusted By The Best",
+      "sub-title": "Config Sync is trusted by the best Minecraft server owners and developers."
+    },
+    "How-It-Works": {
+      "title": "How It Works",
+      "Steps": {
+        "one": {
+          "step": "Step 1",
+          "title": "Sign Up",
+          "description": "Begin by registering on the platform, providing your email address and creating a secure password. Alternatively, you can sign up using your Google, Discord, or GitHub account. Once registered, you will be redirected to the dashboard, where you can create a new project."
+        },
+        "two": {
+          "step": "Step 2",
+          "title": "Create a Project",
+          "description": "Once logged in, create a new project, carefully selecting the subscription plan that aligns with your requirements. Proceed to enhance collaboration by implementing team members into the project, ensuring seamless coordination."
+        },
+        "three": {
+          "step": "Step 3",
+          "title": "Upload your Configurations",
+          "description": "Upload your configuration files to the platform, on the desired instance node. You can also create a new configuration file directly on the platform, using the integrated editor."
+        },
+        "four": {
+          "step": "Step 4",
+          "title": "Start Synchronizing your Configurations",
+          "description": "Lastly, download the Config Sync plugin and install it on your server. Once installed, the plugin will automatically synchronize your configuration files with the platform, ensuring that all your server instances are up-to-date with the latest configurations."
+        }
+      }
+    }
+  },
+  "Footer": {
+    "legal": {
+      "slogan": "Start synchronizing your Minecraft server configurations today",
+      "copyright": "© {year} VertCode Development. All rights reserved."
+    },
+    "website": {
+      "title": "Website",
+      "links": {
+        "home": "Home",
+        "pricing": "Pricing",
+        "sign-in": "Sign In",
+        "sign-up": "Sign Up"
+      }
+    },
+    "useful-links": {
+      "title": "Useful Links",
+      "links": {
+        "contact": "Contact",
+        "terms": "Terms",
+        "privacy": "Privacy"
+      }
+    }
+  }
+}
