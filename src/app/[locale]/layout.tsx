@@ -68,8 +68,13 @@ export const metadata: Metadata = {
             rel: 'icon',
             sizes: '150x150',
             type: 'image/png',
-
         },
+        {
+            url: '/seo/banner.png',
+            rel: 'icon',
+            sizes: '218x89',
+            type: 'image/png',
+        }
     ],
     openGraph: {
         title: 'Config Sync - Config Synchronization Platform',
@@ -78,9 +83,9 @@ export const metadata: Metadata = {
         type: 'website',
         images: [
             {
-                url: 'https://config-sync.com/seo/android-chrome-192x192.png',
-                width: 192,
-                height: 192,
+                url: 'https://config-sync.com/seo/banner.png',
+                width: 218,
+                height: 89,
                 alt: 'Config Sync - Config Synchronization Platform',
             }
         ],
@@ -91,9 +96,9 @@ export const metadata: Metadata = {
         description: 'Config Sync: The best way to synchronize your Minecraft server configurations.',
         images: [
             {
-                url: 'https://config-sync.com/seo/android-chrome-192x192.png',
-                width: 192,
-                height: 192,
+                url: 'https://config-sync.com/seo/banner.png',
+                width: 218,
+                height: 89,
                 alt: 'Config Sync - Config Synchronization Platform',
             }
         ],
