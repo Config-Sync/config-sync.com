@@ -30,7 +30,7 @@ export default function HeroSection() {
                         "transition-all duration-200 ease-in-out",
                         "flex items-center space-x-2"
                     )}
-                    href="https://app.config-sync.com/"
+                    href="https://platform.config-sync.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
